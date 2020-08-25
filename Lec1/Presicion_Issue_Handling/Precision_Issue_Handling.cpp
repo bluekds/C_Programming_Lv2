@@ -1,3 +1,9 @@
+/** Examples of the precision issue handling
+* (C Programming Lv.2 (CPA141) Lecture 1)
+@author Duksu Kim
+@date	2020/08/25
+*/
+
 #include <stdio.h> 
 
 #define FLOAT_ZERO (10e-6)
