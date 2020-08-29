@@ -1,3 +1,9 @@
+/** Exaple of break & continue for loop control
+* (C Programming Lv.2 (CPA141) Lecture 1)
+@author Duksu Kim
+@date	2020/08/29
+*/
+
 #include <stdio.h> 
 #include <math.h> 
 
