@@ -7,6 +7,8 @@ int functionName (int _input) {
 }
 
 int main (void) {
-	printf("Hello World!\n");
+	functionName(10);
+	int (*funcPointer)(int) = functionName;
+	(*funcPointer)(20);
 	return 0;
 }
