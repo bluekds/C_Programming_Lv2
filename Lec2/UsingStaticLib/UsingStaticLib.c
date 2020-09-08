@@ -5,7 +5,7 @@
 */
 
 #include <stdio.h>
-#include "DSLib.h" // The path of the header file
+#include "MyLib.h" // The path of the header file
 
 int main(void)
 {

@@ -40,7 +40,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lec2\MyLib\DSlib.c" />
+    <ClCompile Include="..\..\..\Lec2\MyLib\Mylib.c" />
     <ClCompile Include="..\..\..\Lec2\MyLib\main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Lec2\MyLib\DSLib.h" />
+    <ClInclude Include="..\..\..\Lec2\MyLib\MyLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

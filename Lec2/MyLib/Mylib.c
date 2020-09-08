@@ -4,7 +4,7 @@
 @date	2020/09/06
 */
 
-#include "DSLib.h"
+#include "MyLib.h"
 #include <stdio.h>
 
 void printDS_Name(void)

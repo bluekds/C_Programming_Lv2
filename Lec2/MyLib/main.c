@@ -5,7 +5,7 @@
 */
 
 #include <stdio.h>
-#include "DSLib.h"
+#include "MyLib.h"
 
 int main(void) {
 	printf("My name = ");
@@ -14,6 +14,5 @@ int main(void) {
 	printf("My student ID = ");
 	printDS_StudentID();
 
-	getchar();
 	return 0;
 }
