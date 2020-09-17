@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab_BitOp_Character", "Lab_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitOp_Character_Info", "Lab\BitOp_Character_Info\BitOp_Character_Info.vcxproj", "{550C2684-0E25-4E6D-84DD-57C04F7630CE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FilterFunction", "Lab\FilterFunction\FilterFunction.vcxproj", "{7D278458-81CB-4D22-84D3-534EE9662D94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -199,6 +201,14 @@ Global
 		{550C2684-0E25-4E6D-84DD-57C04F7630CE}.Release|x64.Build.0 = Release|x64
 		{550C2684-0E25-4E6D-84DD-57C04F7630CE}.Release|x86.ActiveCfg = Release|Win32
 		{550C2684-0E25-4E6D-84DD-57C04F7630CE}.Release|x86.Build.0 = Release|Win32
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Debug|x64.ActiveCfg = Debug|x64
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Debug|x64.Build.0 = Debug|x64
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Debug|x86.Build.0 = Debug|Win32
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Release|x64.ActiveCfg = Release|x64
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Release|x64.Build.0 = Release|x64
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Release|x86.ActiveCfg = Release|Win32
+		{7D278458-81CB-4D22-84D3-534EE9662D94}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +233,7 @@ Global
 		{17BE97AB-0CA6-413F-AC47-ABFFC1D7AD92} = {C15BB3F3-8351-43BD-8F88-D9E96D6424C1}
 		{A55C9F83-08FF-4C6B-A9D3-8CF5BC310B33} = {857168E8-3B30-4831-BE55-613C62486619}
 		{550C2684-0E25-4E6D-84DD-57C04F7630CE} = {A55C9F83-08FF-4C6B-A9D3-8CF5BC310B33}
+		{7D278458-81CB-4D22-84D3-534EE9662D94} = {A55C9F83-08FF-4C6B-A9D3-8CF5BC310B33}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1422C9A4-19E5-46B5-B87A-0332F599DB6A}
