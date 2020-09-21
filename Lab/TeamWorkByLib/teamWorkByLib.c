@@ -12,7 +12,7 @@ int main(void)
 		printf("%d", DS_studentID(i));
 	printf("\n");
 	DS_message();
-
+	
 	printf("--------------------\n");
 
 	GD_name();
