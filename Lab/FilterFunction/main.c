@@ -1,46 +1,29 @@
 #include <stdio.h>
-#include <math.h>
 #include "FilterFunction.h"
 
-#define PI (3.14)
-#define	SIGNAL_LENGTH 100
-#define SIGNAL_MAX 5
-#define SIGNAL_MIN (-SIGNAL_MAX)
-
-void genInput(int* _signal);
-void printGraph(int *_signal);
+#define DATA_LENGTH 100
+#define DATA_MAX 5
 
 int main(void)
 {
-	int inputSignal[SIGNAL_LENGTH] = { 0 };	genInput(inputSignal);
+	int inputSignal[DATA_LENGTH] = { 0 };
+	genData(inputSignal, DATA_LENGTH, DATA_MAX);
+	
 	printf("**** Input Signal ****\n");
-	printGraph(inputSignal);
+	printGraph(inputSignal, DATA_LENGTH, DATA_MAX);
 
 	// Apply filter here
 	// Caution: You should not make another array for this problem
-	int outputSignal[SIGNAL_LENGTH] = { 0 };
-	for (int i = 2; i < SIGNAL_LENGTH-2; i++)
-		outputSignal[i] =
-			inverseFilter(smoothingFiler(inputSignal[i - 2], inputSignal[i - 1], inputSignal[i], inputSignal[i + 1], inputSignal[i + 2])
-						, SIGNAL_MAX, SIGNAL_MIN);
+	int outputSignal[DATA_LENGTH] = { 0 };
+	for (int i = 0; i < DATA_LENGTH; i++)
+		outputSignal[i]
+		= inverseFilter(
+			smoothingFilter(inputSignal, DATA_LENGTH, i, 5)
+			, DATA_MAX);
 
 	printf("\n\n**** Output Signal ****\n");
-	printGraph(outputSignal);
+	printGraph(outputSignal, DATA_LENGTH, DATA_MAX);
 
 	return 0;
 }
 
-void genInput(int* _signal) {
-	for (int i = 0; i < SIGNAL_LENGTH; i++) {
-		_signal[i] = sin((i * PI * 10) / 180.0) * SIGNAL_MAX;
-	}
-}
-
-void printGraph(int *_signal) {
-	for (int height = 0; height < SIGNAL_MAX * 2; height++) {
-		for (int i = 2; i < SIGNAL_LENGTH - 2; i++) {
-			_signal[i] == (height - SIGNAL_MAX) ? printf("*") : printf(" ");
-		}
-		printf("\n");
-	}
-}
