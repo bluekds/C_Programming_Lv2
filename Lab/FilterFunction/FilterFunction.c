@@ -31,12 +31,12 @@ int smoothingFilter(int *_data, int _dataLen, int _index, int _filterSize)
 	return sum / _filterSize;
 }
 
-int inverseFilter(int _a, int _max, int _min)
+int inversionFilter(int _input, int _max)
 {
-	if (_a > 0)
-		return -_max + (_max - _a);
+	if (_input > 0)
+		return -_max + (_max - _input);
 	else
-		return _max + (-_max - _a);
+		return _max + (-_max - _input);
 }
 
 void genSineData(int* _data, int _len, int _max) {
@@ -54,15 +54,15 @@ void genData(int* _data, int _len, int _max){
 		noise = (rand() % 2 == 0 ? noise : -noise);
 		if (noise > 0)
 			_data[i] += noise;
-		_data[i] = MAX(_data[i], -(_max-1));
-		_data[i] = MIN(_data[i], _max-1);
+		_data[i] = MAX(_data[i], -(_max));
+		_data[i] = MIN(_data[i], _max);
 		// printf("%d ", _data[i]);
 	}
 }
 
-void printGraph(int* _data, int _len, int _max) {
-	for (int height = 0; height < _max * 2; height++) {
-		for (int i = 2; i < _len - 2; i++) {
+void printData(int* _data, int _len, int _max) {
+	for (int height = 0; height < (_max+1) * 2; height++) {
+		for (int i = 0; i < _len; i++) {
 			_data[i] == (height - _max) ? printf("*") : printf(" ");
 		}
 		printf("\n");
