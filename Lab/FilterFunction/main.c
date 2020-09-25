@@ -2,7 +2,6 @@
 #include "FilterFunction.h"
 
 #define	DATA_LENGTH 100
-#define DATA_MAX 5
 
 int main(void)
 {

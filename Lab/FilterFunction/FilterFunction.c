@@ -1,5 +1,6 @@
 #include "FilterFunction.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <time.h>
 
@@ -22,21 +23,24 @@ int smoothingFilter(int *_data, int _dataLen, int _index, int _filterSize)
 	int offset = _filterSize / 2;
 
 	int sum = 0;
+	int validCount = 0;
 	for (int i = _index - offset; i <= _index + offset; i++) {
 		if (i < 0 || i > _dataLen)
 			continue;
 		sum += _data[i];
+		validCount++;
 	}
 
-	return sum / _filterSize;
+	return sum / validCount;
 }
 
-int inversionFilter(int _input, int _max)
+int inversionFilter(int _input)
 {
-	if (_input > 0)
-		return -_max + (_max - _input);
-	else
-		return _max + (-_max - _input);
+	return -_input;
+	//if (_input > 0)
+	//	return -_max + (_max - _input);
+	//else
+	//	return _max + (-_max - _input);
 }
 
 void genSineData(int* _data, int _len, int _max) {
