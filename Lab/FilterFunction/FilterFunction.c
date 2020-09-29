@@ -15,7 +15,7 @@ int smoothingFiler5(int _a, int _b, int _c, int _d, int _e)
 	return (int)((_a + _b + _c + _d + _e)/5.0f);
 }
 
-int smoothingFilter(int *_data, int _dataLen, int _index, int _filterSize)
+int smoothingFilter(int _data[], int _dataLen, int _index, int _filterSize)
 {
 	// Make it odd number
 	if (_filterSize % 2 == 0)

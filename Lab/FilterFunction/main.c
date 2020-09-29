@@ -17,9 +17,8 @@ int main(void)
 	for (int i = 0; i < DATA_LENGTH; i++) {
 		outputData[i]
 			= inversionFilter(
-			smoothingFilter(inputData, DATA_LENGTH, i, 5)
-			, DATA_MAX)
-			;
+				smoothingFilter(inputData, DATA_LENGTH, i, 5)
+			);
 	}
 
 	printf("\n\n**** Output Data ****\n");
