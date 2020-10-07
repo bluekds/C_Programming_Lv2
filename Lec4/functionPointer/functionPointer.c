@@ -10,6 +10,11 @@ void printResult(int _a, int _b, int(*_pf)(int, int)) {
 }
 
 void main(void) {
+
+	printf("address of the function 'sum' : %p\n", sum);
+	printf("address of the function 'sub' : %p\n", sub);
+	printf("address of the function 'mul' : %p\n", mul);
+
 	int a = 0, b = 0;
 	printf("Enter two numbers: ");
 	scanf_s("%d %d", &a, &b);
