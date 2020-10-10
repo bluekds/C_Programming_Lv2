@@ -2,13 +2,7 @@
 #include "inc/treasureMap.h"
 
 void* FindingTreasure(void* _map, int _depth) {
-	if (_depth == 0)
-		return _map;
-	else {
-		unsigned long long nextPtrVal = *((unsigned long long*)_map);
-		void* next = (void*)nextPtrVal;
-		return FindingTreasure(next, _depth - 1);
-	}
+	// Write your code here!
 }
 
 int main(void) {
