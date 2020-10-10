@@ -5,7 +5,7 @@
 
 //#define DEBUG_MODE
 
-int getMap(char* _map[], int _hints[]) {
+int getMap(void* _map[], int _hints[]) {
 	char* treasure = (char*)malloc(sizeof(char) * MAX_SIZE);
 	if (treasure == NULL) {
 		printf("[getMap] Fail to allocate memory - treasure\n");
@@ -23,20 +23,20 @@ int getMap(char* _map[], int _hints[]) {
 	printf("\n\n");
 #endif
 
-	char*** wayPoints = (char***)malloc(sizeof(char**) * MAX_DEPTH);
+	void*** wayPoints = (void***)malloc(sizeof(void**) * MAX_DEPTH);
 	if (wayPoints == NULL) {
 		printf("[getMap] Fail to allocate memory - wayPoints\n");
 		return -1;
 	}
 
-	memset(wayPoints, 0, sizeof(char**) * MAX_DEPTH);
+	memset(wayPoints, 0, sizeof(void**) * MAX_DEPTH);
 	for (int i = 0; i < MAX_DEPTH; i++) {
-		wayPoints[i] = (char**)malloc(sizeof(char*) * len);
+		wayPoints[i] = (void**)malloc(sizeof(void*) * len);
 		if (wayPoints[i] == NULL) {
 			printf("[getMap] Fail to allocate memory - wayPoints[i]\n");
 			return -1;
 		}
-		memset(wayPoints[i], 0, sizeof(char*) * len);
+		memset(wayPoints[i], 0, sizeof(void*) * len);
 	}
 
 	// Gen hints
@@ -75,7 +75,7 @@ int getMap(char* _map[], int _hints[]) {
 		return -1;
 
 	for (int i = 0; i < len; i++) {
-		_map[i] = (char*)wayPoints[0][i];
+		_map[i] = (void*)wayPoints[0][i];
 		_hints[i] = hints[i];
 	}
 
