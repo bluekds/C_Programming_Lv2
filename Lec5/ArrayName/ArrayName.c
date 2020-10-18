@@ -14,7 +14,7 @@ void funcByPointer(int *input) {
 
 void main(void) {
 	int a[5] = { 1, 2, 3, 4, 5 };
-	printf("value of 'a' : %p\n", &a);
+	printf("value of 'a' : %p\n", a);
 	printf("------\n");
 	funcByArray(a);
 	printf("------\n");

@@ -13,7 +13,7 @@ int getMap(void* _map[], int _hints[]) {
 	}
 
 	memset(treasure, 0, sizeof(char) * MAX_SIZE);
-	strcpy_s(treasure, sizeof(char) * MAX_SIZE, "Message");
+	strcpy_s(treasure, sizeof(char) * MAX_SIZE, "You understood the 'pointer' perfectly!");
 	int len = strlen(treasure);
 
 #ifdef DEBUG_MODE
