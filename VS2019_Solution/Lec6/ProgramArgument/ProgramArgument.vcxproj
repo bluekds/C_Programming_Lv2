@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{627c162e-24dd-4319-a9bc-f8a22a23da01}</ProjectGuid>
-    <RootNamespace>NULLchar</RootNamespace>
+    <ProjectGuid>{54ae21a3-0f54-4852-bc3b-f68467082049}</ProjectGuid>
+    <RootNamespace>ProgramArgument</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lec6\NULL_char\NULL_char.c" />
+    <ClCompile Include="..\..\..\Lec6\ProgramArgument\ProgramArgument.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

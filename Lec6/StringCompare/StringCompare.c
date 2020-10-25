@@ -19,6 +19,6 @@ int main(int argc, char* argv[]) {
 		printf("Two strings are same!");
 	else
 		printf("Two strings are different.");
-}
 
-char* strtok(char* str, const char *delimiters)
+	return 0;
+}

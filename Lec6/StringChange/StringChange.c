@@ -10,6 +10,8 @@ int main(int argc, int* argv[]){
 
 	StringChange(str, 5, "C Language", 0);
 	printf("%s\n", str);
+
+	return 0;
 }
 
 int StringChange(char string[], int _maxLen, char* _newString, int _from) {

@@ -15,4 +15,6 @@ int main(int argc, char* argv[]) {
 	if (gets_s(str, 255) == NULL)
 		return -1;
 	printf("The length of the string is %d\n", stringLength(str));
+
+	return 0;
 }

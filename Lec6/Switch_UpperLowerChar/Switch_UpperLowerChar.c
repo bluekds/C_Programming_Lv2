@@ -11,4 +11,6 @@ int main(int argc, char* argv[]) {
 			c = toupper(c);
 		putchar(c);
 	}
+
+	return 0;
 }

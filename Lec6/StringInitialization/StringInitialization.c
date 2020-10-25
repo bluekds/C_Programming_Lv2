@@ -6,4 +6,5 @@ int main(int argc, char* argv[]) {
 	char str3[] = "do C language well!";
 
 	printf("%s %s %s\n", str1, str2, str3);
+	return 0;
 }
