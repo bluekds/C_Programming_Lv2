@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 void print2DArray(int** _arr, int _rowSize, int _colSize) {
+	int* p = (int*)_arr;
 	for (int i = 0; i < _rowSize * _colSize; i++) {
-		printf("%d ", *_arr); ((int*)_arr)++;
+		printf("%d ", *p); p++;
 		if ((i + 1) % _colSize == 0) printf("\n");
 	}
 }

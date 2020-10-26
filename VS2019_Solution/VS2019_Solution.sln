@@ -169,6 +169,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IDBook", "Lec6\IDBook\IDBoo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProgramArgument", "Lec6\ProgramArgument\ProgramArgument.vcxproj", "{54AE21A3-0F54-4852-BC3B-F68467082049}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BufferOverflow", "Lec6\BufferOverflow\BufferOverflow.vcxproj", "{0AE7CF5D-5204-4054-A22F-85B2F248530A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -785,6 +787,14 @@ Global
 		{54AE21A3-0F54-4852-BC3B-F68467082049}.Release|x64.Build.0 = Release|x64
 		{54AE21A3-0F54-4852-BC3B-F68467082049}.Release|x86.ActiveCfg = Release|Win32
 		{54AE21A3-0F54-4852-BC3B-F68467082049}.Release|x86.Build.0 = Release|Win32
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Debug|x64.ActiveCfg = Debug|x64
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Debug|x64.Build.0 = Debug|x64
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Debug|x86.Build.0 = Debug|Win32
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Release|x64.ActiveCfg = Release|x64
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Release|x64.Build.0 = Release|x64
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Release|x86.ActiveCfg = Release|Win32
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -866,6 +876,7 @@ Global
 		{84C7D9FE-0E7E-4AF7-A1CD-7B1A411E66FC} = {BB9B92D1-42C6-4504-87B8-2BC3B485DB8B}
 		{D1F6CFD1-CEC2-4B42-8E4E-3C5ED236D56E} = {BB9B92D1-42C6-4504-87B8-2BC3B485DB8B}
 		{54AE21A3-0F54-4852-BC3B-F68467082049} = {BB9B92D1-42C6-4504-87B8-2BC3B485DB8B}
+		{0AE7CF5D-5204-4054-A22F-85B2F248530A} = {BB9B92D1-42C6-4504-87B8-2BC3B485DB8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1422C9A4-19E5-46B5-B87A-0332F599DB6A}

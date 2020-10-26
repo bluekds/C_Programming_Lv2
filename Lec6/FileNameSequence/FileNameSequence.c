@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char* argv[]) {
-	char* buf[255] = { 0 };
+	char buf[255] = { 0 };
 	char* baseName = "data";
 
 	for (int i = 0; i < 10; i++) {

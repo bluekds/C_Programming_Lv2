@@ -15,7 +15,7 @@ int main(int argc, int* argv[]){
 }
 
 int StringChange(char string[], int _maxLen, char* _newString, int _from) {
-	int len = 0, i = 0;
+	int i = 0;
 	while (_newString[i] != '\0' && _from + i < _maxLen) {
 		string[_from + i] = _newString[i];
 		i++;
