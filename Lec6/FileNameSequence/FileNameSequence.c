@@ -9,4 +9,6 @@ int main(int argc, char* argv[]) {
 		sprintf(buf, "%s%d.txt", baseName, i);
 		printf("%s\n", buf);
 	}
+
+	return 0;
 }

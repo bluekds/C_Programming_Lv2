@@ -12,4 +12,6 @@ int main(int argc, char* argv[]) {
 	
 	double result = valInt + valDouble;
 	printf("Result = %lf\n", result);
+
+	return 0;
 }

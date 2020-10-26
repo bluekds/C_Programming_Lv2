@@ -9,4 +9,6 @@ int main(int argc, char* argv[]) {
 	printf("\n");
 
 	scanf("%s", strs[0]); // error!
+
+	return 0;
 }

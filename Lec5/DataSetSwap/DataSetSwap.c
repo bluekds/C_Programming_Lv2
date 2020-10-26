@@ -4,7 +4,7 @@ void printCardInfo(void** _card) {
 	printf("[%s]\n", _card[0]);
 	printf("|통솔|무력|지력|정치|매력|\n");
 	for (int i = 0; i < 5; i++)
-		printf("| %d ", *((int**)_card[1] + i));
+		printf("| %d ", *((int*)_card[1] + i));
 	printf("|\n");
 }
 
