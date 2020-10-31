@@ -179,6 +179,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CardBattle", "Lec7\CardBatt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CardBattle_ArrayVer", "Lec7\CardBattle_ArrayVer\CardBattle_ArrayVer.vcxproj", "{556ADFBC-BE25-489A-8D3C-1D8D64BCE6A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Struct_N_Memory", "Lec7\Struct_N_Memory\Struct_N_Memory.vcxproj", "{3393D90C-B4EE-44E2-B913-A55913984E04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -827,6 +829,14 @@ Global
 		{556ADFBC-BE25-489A-8D3C-1D8D64BCE6A3}.Release|x64.Build.0 = Release|x64
 		{556ADFBC-BE25-489A-8D3C-1D8D64BCE6A3}.Release|x86.ActiveCfg = Release|Win32
 		{556ADFBC-BE25-489A-8D3C-1D8D64BCE6A3}.Release|x86.Build.0 = Release|Win32
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Debug|x64.ActiveCfg = Debug|x64
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Debug|x64.Build.0 = Debug|x64
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Debug|x86.ActiveCfg = Debug|Win32
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Debug|x86.Build.0 = Debug|Win32
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Release|x64.ActiveCfg = Release|x64
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Release|x64.Build.0 = Release|x64
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Release|x86.ActiveCfg = Release|Win32
+		{3393D90C-B4EE-44E2-B913-A55913984E04}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -912,6 +922,7 @@ Global
 		{87CD7CD4-3B4E-4FA8-B813-09181EC6D5FD} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
 		{4B02C452-094D-45B5-BBEF-2DCBCE6A6FFF} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
 		{556ADFBC-BE25-489A-8D3C-1D8D64BCE6A3} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
+		{3393D90C-B4EE-44E2-B913-A55913984E04} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1422C9A4-19E5-46B5-B87A-0332F599DB6A}
