@@ -185,6 +185,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Struct_N_Function", "Lec7\S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitField", "Lec7\BitField\BitField.vcxproj", "{70F37A2D-09DB-4D4D-8D9A-2B8C2861743F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Struct_N_Pointer", "Lec7\Struct_N_Pointer\Struct_N_Pointer.vcxproj", "{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -857,6 +859,14 @@ Global
 		{70F37A2D-09DB-4D4D-8D9A-2B8C2861743F}.Release|x64.Build.0 = Release|x64
 		{70F37A2D-09DB-4D4D-8D9A-2B8C2861743F}.Release|x86.ActiveCfg = Release|Win32
 		{70F37A2D-09DB-4D4D-8D9A-2B8C2861743F}.Release|x86.Build.0 = Release|Win32
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Debug|x64.ActiveCfg = Debug|x64
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Debug|x64.Build.0 = Debug|x64
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Debug|x86.Build.0 = Debug|Win32
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Release|x64.ActiveCfg = Release|x64
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Release|x64.Build.0 = Release|x64
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Release|x86.ActiveCfg = Release|Win32
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -945,6 +955,7 @@ Global
 		{3393D90C-B4EE-44E2-B913-A55913984E04} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
 		{54BABBE4-49BD-4AD9-B3B7-3F1E53D94F8D} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
 		{70F37A2D-09DB-4D4D-8D9A-2B8C2861743F} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
+		{60FA8DB3-4DBA-4425-B19D-C6D0102661DF} = {147E45B0-44AE-45D9-B791-F337BEAED5BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1422C9A4-19E5-46B5-B87A-0332F599DB6A}
