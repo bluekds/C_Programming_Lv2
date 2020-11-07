@@ -11,7 +11,8 @@ int main(void) {
 	struct Card cards[NUM_CARDS] = { 0 };
 
 	for (int i = 0; i < NUM_CARDS; i++) {
-		printf("Card-%d Info: ", i); scanf("%s %d", cards[i].name, &cards[i].power);
+		printf("Card-%d Info: ", i);
+		scanf("%s %d", cards[i].name, &cards[i].power);
 	}
 
 	int best = 0;
