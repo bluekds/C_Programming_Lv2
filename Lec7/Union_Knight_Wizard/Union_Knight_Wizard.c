@@ -11,7 +11,7 @@ struct player {
 	unsigned int	hp;
 
 	union {	// class specific status
-		unsigned int		magicPowr;	// for wizard
+		unsigned int		magicPower;	// for wizard
 		unsigned short		stamina;	// for knight
 		unsigned char		arrow;		// for archer
 	};
@@ -21,9 +21,9 @@ void printInfo(struct player* _p) {
 	printf("[class] %d, [Name] %s, [HP] %d, ", _p->class, _p->name, _p->hp );
 	switch (_p->class) {
 	case WIZARD:
-		printf("[MP] %d\n", _p->magicPowr); break;
+		printf("[MP] %d\n", _p->magicPower); break;
 	case KNIGHT:
-		printf("[Stemina] %d\n", _p->stamina); break;
+		printf("[Stamina] %d\n", _p->stamina); break;
 	case ARCHER:
 		printf("[Arrow] %d\n", _p->arrow); break;
 	}

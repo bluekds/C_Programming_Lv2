@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 union status {	
-	unsigned int		magicPowr;	
+	unsigned int		magicPower;	
 	unsigned short		stamina;	
 	unsigned char		arrow;		
 };
 
 void printMember(union status *_data) {
 	printf("%d, %d, %d\n"
-		, _data->magicPowr, _data->stamina, _data->arrow);
+		, _data->magicPower, _data->stamina, _data->arrow);
 }
 
 int main(void) {
@@ -20,7 +20,7 @@ int main(void) {
 	}
 
 	printf("%p, %p, %p\n"
-		, &stat[0].magicPowr, &stat[0].stamina, &stat[0].arrow);
+		, &stat[0].magicPower, &stat[0].stamina, &stat[0].arrow);
 
 	printMember(&stat[0]);
 	stat[0].arrow = 50;

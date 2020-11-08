@@ -21,7 +21,7 @@ int main(void) {
 		, &str[0].memberInt, &str[0].memberShort, &str[0].memberChar);
 	printf("[Structure] %d, %d, %d\n", str[0].memberInt, str[0].memberShort, str[0].memberChar);
 	str[0].memberShort = 24;
-	printf("[Union] %d, %d, %d\n", str[0].memberInt, str[0].memberShort, str[0].memberChar);
+	printf("[Structure] %d, %d, %d\n", str[0].memberInt, str[0].memberShort, str[0].memberChar);
 
 	printf("\n");
 
