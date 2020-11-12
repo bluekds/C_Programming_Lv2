@@ -10,9 +10,9 @@ struct Character { // 4 bytes
 
 void printCharInfo(struct Character* _char) {
 	if ((*_char).type == 0)
-		printf("[ÈÞ¸Õ] ");
+		printf("[Human] ");
 	else
-		printf("[¿¤ÇÁ] ");
+		printf("[Elf] ");
 
 	printf("LV: %d, HP: %d, MP: %d\n", (*_char).lv, (*_char).hp, (*_char).mp);
 }
