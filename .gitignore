@@ -351,3 +351,4 @@ MigrationBackup/
 *.filters
 /VS2019_Solution/Lec8/CharacterIO/test.txt
 /VS2019_Solution/Lec8/StringIO_FileCopy/fileB.txt
+/VS2019_Solution/Lec8/FormattedIO/StudentList.txt
