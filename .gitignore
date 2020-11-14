@@ -349,3 +349,5 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 *.filters
+/VS2019_Solution/Lec8/CharacterIO/test.txt
+/VS2019_Solution/Lec8/StringIO_FileCopy/fileB.txt

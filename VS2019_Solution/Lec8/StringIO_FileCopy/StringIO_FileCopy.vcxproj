@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{44835163-e0ee-4322-a3d2-b07990f4e3c9}</ProjectGuid>
-    <RootNamespace>LvUp</RootNamespace>
+    <ProjectGuid>{e17c5a65-4623-4ec4-945d-b7d8d7d1b466}</ProjectGuid>
+    <RootNamespace>StringIOFileCopy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Lab\LvUp\LvUp.c" />
+    <ClCompile Include="..\..\..\Lec8\StringIO_FileCopy\StringIO_FileCopy.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -59,8 +59,8 @@ int main(void) {
 		}
 	}
 
-	printMemberInfo(&familyMember[FATHER]);
-	printMemberInfo(&familyMember[MOTHER]);
+	//printMemberInfo(&familyMember[FATHER]);
+	//printMemberInfo(&familyMember[MOTHER]);
 	return 0;
 }
 
