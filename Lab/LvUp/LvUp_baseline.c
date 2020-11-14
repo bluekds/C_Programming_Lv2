@@ -39,12 +39,12 @@ int main() {
 
 int setCharInfo(character* _char) {
 	// write your code here
-	return _char->ID;
+	return 0;
 }
 
 int levelUp(character* _char){
 	// write your code here
-	return _char->ID;
+	return 0;
 }
 
 void printCharInfo(character* _char) {
