@@ -352,3 +352,8 @@ MigrationBackup/
 /VS2019_Solution/Lec8/CharacterIO/test.txt
 /VS2019_Solution/Lec8/StringIO_FileCopy/fileB.txt
 /VS2019_Solution/Lec8/FormattedIO/StudentList.txt
+/VS2019_Solution/Lec8/BinaryIO_fwrite/binary.bin
+/VS2019_Solution/Lec8/StudentInfo_Full/StudentDB
+/VS2019_Solution/Lec8/RandomAccess/text.txt
+/VS2019_Solution/Lec8/StudentInfo_BinVer/StudentList.bin
+/VS2019_Solution/Lec8/StudentInfo_BinVer/StudentList.txt

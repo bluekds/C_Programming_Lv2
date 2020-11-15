@@ -3,7 +3,7 @@
 
 typedef struct {
 	int ID;
-	char name[10];
+	char name[8];
 	float score;
 } Student;
 
@@ -25,7 +25,7 @@ int main(void) {
 		exit(1);	
 
 	while(1) {	// Get and store the student info
-		printf("Enter ID Name Grad (Exit: -1): ");
+		printf("Enter ID Name Score (Exit: -1): ");
 		scanf("%d", &info.ID);
 		if (info.ID < 0)
 			break;
