@@ -23,7 +23,7 @@ int main(void)
 	}
 
 	// File Copy
-	while (fgets(buf, 100, fpSrc) != NULL)
+	while (fgets(buf, BUF_SIZE, fpSrc) != NULL)
 		fputs(buf, fpDst);
 
 	fclose(fpSrc);
