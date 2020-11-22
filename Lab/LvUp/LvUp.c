@@ -42,7 +42,7 @@ int setCharInfo(character* _char) {
 	return _char->ID;
 }
 
-int levelUp(character* _char){
+int levelUp(character* _char) {
 	// write your code here
 	return _char->ID;
 }
