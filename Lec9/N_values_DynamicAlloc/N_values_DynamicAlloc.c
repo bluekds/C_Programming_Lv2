@@ -16,6 +16,9 @@ int main(void) {
 		printf("%d ", values[i]);
 	printf("\n");
 
-	free(values); values = NULL;
+	if (values != NULL) {
+		free(values);
+		values = NULL;
+	}
 	return 0;
 }

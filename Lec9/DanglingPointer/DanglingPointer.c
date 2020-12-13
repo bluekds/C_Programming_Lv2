@@ -8,6 +8,7 @@ int main(void) {
 	printf("%d\n", p1[0]);
 	free(p1);
 
-	free(p1);
+	p1[0] = 1;	// dangling pointer
+
 	return 0;
 }
